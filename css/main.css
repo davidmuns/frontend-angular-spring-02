@@ -11956,4 +11956,48 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.right-blue-box {
+  background-color: #5265E1;
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  height: 60%;
+  border-bottom-left-radius: 25% 35%;
+  top: -60%;
+  left: 30%;
+}
+
+.left-blue-box1 {
+  background-color: #5265E1;
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  height: 50%;
+  border-bottom-right-radius: 25% 35%;
+  top: -40%;
+  left: -30%;
+}
+
+.left-blue-box2 {
+  background-color: #5265E1;
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  height: 60%;
+  border-bottom-right-radius: 25% 35%;
+  top: -50%;
+  left: -30%;
+}
+
+.left-blue-box3 {
+  background-color: #5265E1;
+  position: relative;
+  z-index: -1;
+  width: 90%;
+  height: 60%;
+  border-bottom-right-radius: 25% 35%;
+  top: -50%;
+  left: -30%;
+}
 /*# sourceMappingURL=main.css.map */
