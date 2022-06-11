@@ -11957,6 +11957,10 @@ fieldset:disabled .btn {
   }
 }
 
+.custom-margin {
+  margin-top: 130px;
+}
+
 .right-blue-box {
   background-color: #5265E1;
   position: relative;
