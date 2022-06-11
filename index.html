@@ -14,6 +14,7 @@
 
 <body>
     <!-- Ejercicio 1 -->
+    <!-- NavBar -->
     <div class="container-fluid bg-light p-3 fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light px-5">
             <a class="navbar-brand" href="#">
@@ -47,12 +48,15 @@
     <div class="container custom-margin">
         <div class="row">
             <div class="col-12 col-lg-6 order-last order-lg-first">
-                <h1 class="fw-bold fs-3 mt-5">A Simple Bookmark Manager</h1>
-                <p class="text-muted fs-5">A clean and simple interface to organize your favourite websites.
+                <h1 class="custom-align fw-bold fs-3 mt-5">A Simple Bookmark Manager</h1>
+                <p class="custom-align text-muted fs-5">A clean and simple interface to organize your favourite
+                    websites.
                     Open a new browser tab and see your
                     sites load instantly. Try it for free.</p>
-                <button type="button" class="btn btn-primary">Get it on Chrome</button>
-                <button type="button" class="btn btn-light ms-2 shadow">Get it on Firefox</button>
+                <div class="custom-align">
+                    <button type="button" class="bookmark btn btn-primary">Get it on Chrome</button>
+                    <button type="button" class="btn btn-light ms-2 shadow">Get it on Firefox</button>
+                </div>
             </div>
             <div class="col-12 col-lg-6 mt-5 mt-lg-0">
                 <img src="img/illustration-hero.svg" alt="" class="img-fluid">
@@ -62,17 +66,18 @@
     </div>
 
     <!-- Ejercicio 2 -->
+    <!-- Features -->
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8">
-                <h1 class=" fw-bold fs-3" style="text-align: center">Features</h1>
+                <h1 class="fw-bold fs-3" style="text-align: center">Features</h1>
                 <p class="text-muted fs-5" style="text-align: center;">Our aim is to make it quick
                     and easy for you to access your
                     favourite websites. Your bookmarks sync between
                     your devices so you can access them on the go.</p>
             </div>
         </div>
-        <div class=" row mt-3">
+        <div class="row mt-3">
             <div class="col">
                 <div class="row mt-3">
                     <div class="col">
@@ -91,29 +96,24 @@
                         </nav>
 
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active " id="nav-home" role="tabpanel"
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                 aria-labelledby="nav-home-tab">
                                 <div class="row mt-4">
-                                    <div class="col-12  col-sm-6">
+                                    <div class="col-12 col-lg-6">
                                         <img src="img/illustration-features-tab-1.svg" class=" img-fluid"
                                             alt="illustration-hero">
                                         <div class="left-blue-box1"></div>
                                     </div>
-                                    <div class="col-12  col-sm-6 ">
-                                        <h3 class="text-start fw-bold fs-3 mt-5">Bookmark in one click</h3>
-                                        <p class="text-start text-muted fs-5 ">Organize your bookmarks however
-                                            you
-                                            like.
-                                            Our simple
-                                            drag-and-drop interface gives you complete control over how you
-                                            manage
-                                            your
-                                            favourite sites
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="custom-align fw-bold fs-3 mt-5">Bookmark in one click</h3>
+                                        <p class="custom-align text-start text-muted fs-5 ">Organize your bookmarks
+                                            however you like.
+                                            Our simple drag-and-drop interface gives you complete control over how you
+                                            manage your favourite sites.
                                         </p>
-                                        <form class="d-flex">
-                                            <button class="btn btn-primary active " type="button">More
-                                                info</button>
-                                        </form>
+                                        <div class="custom-align">
+                                            <button class="btn btn-primary active" type="button">More info</button>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -123,21 +123,21 @@
                                 aria-labelledby="nav-profile-tab">
 
                                 <div class="row mt-4">
-                                    <div class="col-12 col-sm-6">
+                                    <div class="col-12 col-lg-6">
                                         <img src="img/illustration-features-tab-2.svg" class=" img-fluid"
                                             alt="illustration-hero">
                                         <div class="left-blue-box2"></div>
                                     </div>
-                                    <div class="col-12 col-sm-6 ">
-                                        <h3 class="text-start  fw-bold  fs-3 mt-5">Intelligent search</h3>
-                                        <p class="text-start text-muted  fs-5 ">Our powerful search feature will
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="custom-align fw-bold fs-3 mt-5">Intelligent search</h3>
+                                        <p class="custom-align text-muted fs-5 ">Our powerful search feature will
                                             help you find saved sites in no time at all. No need to trawl through
                                             all of your bookmarks.
                                         </p>
-                                        <form class="d-flex">
+                                        <div class="custom-align">
                                             <button class="btn btn-primary active " type="button">More
                                                 info</button>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -147,21 +147,21 @@
                                 aria-labelledby="nav-contact-tab">
 
                                 <div class="row mt-4">
-                                    <div class="col-12  col-sm-6">
+                                    <div class="col-12 col-lg-6">
                                         <img src="img/illustration-features-tab-3.svg" class=" img-fluid"
                                             alt="illustration-hero">
                                         <div class="left-blue-box3"></div>
                                     </div>
-                                    <div class="col-12  col-sm-6 ">
-                                        <h3 class="text-start fw-bold fs-3 mt-5">Share your bookmarks</h3>
-                                        <p class="text-start text-muted fs-5 ">Easily share your bookmarks and
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="custom-align fw-bold fs-3 mt-5">Share your bookmarks</h3>
+                                        <p class="custom-align text-muted fs-5 ">Easily share your bookmarks and
                                             collections with others. Create a shareable link that you can send at
                                             the click of a button.
                                         </p>
-                                        <form class="d-flex">
+                                        <div class="custom-align">
                                             <button class="btn btn-primary active " type="button">More
                                                 info</button>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -175,6 +175,7 @@
     </div>
 
     <!-- Ejercicio 3 -->
+    <!-- Browsers -->
     <div class="container mt-5">
 
         <div class="row justify-content-center">
@@ -193,7 +194,8 @@
                         <h5 class="card-title fw-bold fs-5 mt-4">Add to Chrome</h5>
                         <p class="card-text text-muted">Minimum version 62 </p>
                         <img src="img/bg-dots.svg" class=" img-fluid" alt="bg-dots">
-                        <button class="btn btn-primary active" type="button">Add & Install Extension</button>
+                        <button class="btn btn-primary active" type="button">Add & Install
+                            Extension</button>
                     </div>
                 </div>
             </div>
@@ -221,8 +223,9 @@
             </div>
         </div>
     </div>
-    <!-- Ejercicio 4 -->
 
+    <!-- Ejercicio 4 -->
+    <!-- Accordion -->
     <section class="container-fluid max-window-size pt-5 my-5">
         <div class="row justify-content-center text-center">
             <h1 class="fw-bold fs-3">Frequently Asked Questions</h1>
@@ -244,11 +247,11 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body ff-rubik-light-s fs-rubik-3 text-muted ps-0">Lorem ipsum
-                                    dolor, sit amet consectetur adipisicing elit. Earum consequuntur veritatis,
-                                    molestiae quisquam possimus, ipsam iste vitae dolorum omnis labore voluptatum.
-                                    Eum cupiditate optio officiis illo saepe tempora recusandae! Nihil excepturi,
-                                    tempora, pariatur odit distinctio expedita ducimus quibusdam earum voluptatibus
-                                    voluptates neque!</div>
+                                    dolor sit amet consectetur adipisicing elit. Qui quasi laboriosam blanditiis quia
+                                    officia labore, sed voluptatem saepe rem ipsum maiores autem tempora? Eius quam
+                                    ducimus facere. Incidunt corrupti non, qui adipisci deleniti facilis,
+                                    reiciendis, quae cum reprehenderit vitae quis. Obcaecati voluptatibus
+                                    tempora distinctio est ex sequi at rerum exercitationem?</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -263,10 +266,12 @@
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body ff-rubik-light-s fs-rubik-3 text-muted ps-0">Lorem ipsum
-                                    dolor sit amet consectetur adipisicing elit. Placeat cupiditate consequatur iste
-                                    inventore saepe hic fuga recusandae sit quod ducimus vitae maiores, libero eaque
-                                    ea? Vero sed voluptate consequatur laboriosam suscipit labore nemo cumque quos
-                                    nobis tempora? Excepturi quas rerum in vitae?</div>
+                                    dolor sit amet consectetur
+                                    adipisicing elit. Reiciendis expedita aliquam officiis non, eveniet aperiam ipsum
+                                    tempore cum eaque officia quod aliquid quam fugiat labore recusandae, tempora autem
+                                    commodi nesciunt ex voluptate facilis voluptatibus ea.
+                                    A ratione temporibus deserunt incidunt nesciunt laboriosam suscipit ex vero,
+                                    qui animi tempore quasi. Porro?</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -315,10 +320,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 </body>
 
 </html>
