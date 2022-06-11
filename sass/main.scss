@@ -4,6 +4,10 @@ $secondary: #FA5959;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+.custom-margin {
+    margin-top: 130px;
+}
+
 .right-blue-box {
     background-color: $primary;
     position: relative;
