@@ -11957,6 +11957,16 @@ fieldset:disabled .btn {
   }
 }
 
+@media (max-width: 992px) {
+  .card {
+    width: 350px;
+    margin: auto;
+  }
+  .custom-align {
+    text-align: center;
+  }
+}
+
 .custom-margin {
   margin-top: 130px;
 }
