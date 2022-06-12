@@ -11965,6 +11965,13 @@ fieldset:disabled .btn {
   .custom-align {
     text-align: center;
   }
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
 }
 
 .custom-margin {
