@@ -16,7 +16,9 @@ $secondary: #FA5959;
 
     .nav {
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+
     }
 
 }
